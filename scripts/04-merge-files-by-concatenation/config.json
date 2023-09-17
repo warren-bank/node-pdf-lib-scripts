@@ -1,0 +1,18 @@
+{
+  "pdf_input":  [
+    "data/in_001.pdf",
+    "data/in_002.pdf",
+    "data/in_003.pdf",
+    "data/in_004.pdf",
+    "data/in_005.pdf",
+    "data/in_006.pdf",
+    "data/in_007.pdf",
+    "data/in_008.pdf",
+    "data/in_009.pdf",
+    "data/in_010.pdf",
+    "data/in_011.pdf",
+    "data/in_012.pdf",
+    "data/in_013.pdf"
+  ],
+  "pdf_output": "data/out.pdf"
+}

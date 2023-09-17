@@ -1,0 +1,27 @@
+{
+  "name": "pdf-lib-scripts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Assorted 'pdf-lib' scripts for Node.js",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/node-pdf-lib-scripts"
+  },
+  "scripts": {
+    "remove":       "node ./scripts/01-remove-pages/index.js",
+    "extract":      "node ./scripts/02-extract-pages/index.js",
+    "split":        "node ./scripts/03-split-pages/index.js",
+    "merge:concat": "node ./scripts/04-merge-files-by-concatenation/index.js",
+    "merge:alt":    "node ./scripts/05-merge-files-by-alternating-pages/index.js",
+    "merge:book":   "node ./scripts/06-merge-adjacent-odd-and-even-pages-to-double-height-and-halve-count/index.js"
+  }
+}

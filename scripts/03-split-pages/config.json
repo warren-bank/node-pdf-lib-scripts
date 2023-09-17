@@ -1,0 +1,19 @@
+{
+  "pdf_input":  "data/in.pdf",
+  "pdf_output": "data/out_{{page_number}}.pdf",
+  "pages": {
+    "range": [{
+      "from": 1,
+      "to":   10
+    },{
+      "from": 11,
+      "to":   12
+    }],
+    "list": [
+      13
+    ]
+  },
+  "options": {
+    "zero_pad_page_number": true
+  }
+}
